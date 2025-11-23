@@ -234,7 +234,6 @@ namespace QLThuVien
                 return;
             }
 
-            // Lấy hoặc tạo mới TacGiaID
             int tacGiaID = GetOrCreateTacGiaID(txtTacGia.Text);
             if (tacGiaID == -1) return;
 
